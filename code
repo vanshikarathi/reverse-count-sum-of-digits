@@ -1,0 +1,28 @@
+print("Welcome")
+print("Press 1- Reverse a Number")
+print("Press 2- Find Sum of Digits")
+a= int(input("Enter Key to Start")
+
+if(a==1):
+	n = int(input("Enter a number"))
+	rev=0
+	while(n!=0):
+		rev = rev*10
+		rev= rev+ n%10
+		n = n//10
+	print("Reverse is  ",rev)
+	break;
+
+elif(a==2):
+	n = int(input("Enter a number"))
+	sum=0
+	while(n>0):
+		x = n%10
+		sum= sum+ x
+		n = n//10
+	print("Sum of digits is  ",sum)
+	break;
+
+else:
+	print("OPPs Wrong Selection")
+	break;
